@@ -1,0 +1,45 @@
+.loginFormContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto;
+    height: 100%;
+    justify-content: center;
+    form {
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 10px;
+        label {
+            margin-bottom: 10px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin-bottom: 18px;
+        }
+        button {
+            margin-top: 10px;
+        }
+    }
+    span {
+        text-align: center;
+    }
+
+    p {
+        margin-top: 5px 0 5px 0;
+        color: #bf1650;
+        a {
+            color: var(--theme-color);
+        }
+    }
+    p::before {
+        display: inline;
+        content: "⚠ ";
+      }
+}
